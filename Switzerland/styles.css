@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: white;
+  }
+  
+  .card {
+    background-color: #e9f5f2;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card h2 {
+    color: #1e6f5c;
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1e6f5c;
+    color: white;
+  }
+  
+  .cta a {
+    background-color: #f2b705;
+    color: #1e6f5c;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .cta a:hover {
+    background-color: #fcd34d;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    font-size: 0.9em;
+  }
