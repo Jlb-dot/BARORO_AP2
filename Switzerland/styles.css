@@ -43,19 +43,6 @@ header h1 {
 }
 
 
-.card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  width: 300px;
-  text-align: center;
-}
-
-.card h2 {
-  color: #d52b1e; 
-  margin-bottom: 15px;
-}
 
 .link{
   background-color: #f0f0f0;
